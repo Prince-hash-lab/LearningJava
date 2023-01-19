@@ -1,34 +1,32 @@
 package doms;
 // Java program to illustrate the
+
 // concept of inheritance
 
 // base class
 class Bicycle {
 	// the Bicycle class has two fields
-	public int gear;public int speed;
+	public int gear;
+	public int speed;
+
 	// the Bicycle class has one constructor
-	public Bicycle(int gear, int speed)
-	{
+	public Bicycle(int gear, int speed) {
 		this.gear = gear;
 		this.speed = speed;
 	}
 
 	// the Bicycle class has three methods
-	public void applyBrake(int decrement)
-	{
+	public void applyBrake(int decrement) {
 		speed -= decrement;
 	}
 
-	public void speedUp(int increment)
-	{
+	public void speedUp(int increment) {
 		speed += increment;
 	}
 
 	// toString() method to print info of Bicycle
-	public String toString()
-	{
-		return ("No of gears are " + gear + "\n"
-				+ "speed of bicycle is " + speed);
+	public String toString() {
+		return ("No of gears are " + gear + "\n" + "speed of bicycle is " + speed);
 	}
 }
 
@@ -37,26 +35,23 @@ class MountainBike extends Bicycle {
 
 	// the MountainBike subclass adds one more field
 	public int seatHeight;
-    public int gear;
-	// the MountainBike subclass has one constructor
+	public int gear;
+
 	public MountainBike(int gear, int speed,
-						int startHeight)
-	{
-		// invoking base-class(Bicycle) constructor
+			int startHeight) {
 		super(gear, speed);
 		seatHeight = startHeight;
 	}
 
 	// the MountainBike subclass adds one more method
-	public void setHeight(int newValue)
-	{
+	public void setHeight(int newValue) {
 		seatHeight = newValue;
 	}
 
 	// overriding toString() method
 	// of Bicycle to print more info
-	@Override public String toString()
-	{
+	@Override
+	public String toString() {
 		return (super.toString() + "\nseat height is "
 				+ seatHeight);
 	}
@@ -64,11 +59,12 @@ class MountainBike extends Bicycle {
 
 // driver class
 public class Test {
-	public static void main(String args[])
-	{
-
+	public static void main(String args[]) {
 		MountainBike mb = new MountainBike(3, 100, 25);
 		System.out.println(mb.toString());
+		for(int i=0; i<n; i++)
+		{
+			
+		}
 	}
 }
-
