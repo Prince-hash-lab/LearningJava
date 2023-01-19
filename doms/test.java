@@ -1,5 +1,5 @@
 package doms;
-// Java program to illustrate the
+
 
 // concept of inheritance
 
@@ -13,9 +13,9 @@ class Bicycle {
 	public Bicycle(int gear, int speed) {
 		this.gear = gear;
 		this.speed = speed;
+		// the Bicycle class has three methods
 	}
 
-	// the Bicycle class has three methods
 	public void applyBrake(int decrement) {
 		speed -= decrement;
 	}
@@ -37,8 +37,7 @@ class MountainBike extends Bicycle {
 	public int seatHeight;
 	public int gear;
 
-	public MountainBike(int gear, int speed,
-			int startHeight) {
+	public MountainBike(int gear, int speed, int startHeight) {
 		super(gear, speed);
 		seatHeight = startHeight;
 	}
@@ -52,8 +51,7 @@ class MountainBike extends Bicycle {
 	// of Bicycle to print more info
 	@Override
 	public String toString() {
-		return (super.toString() + "\nseat height is "
-				+ seatHeight);
+		return (super.toString() + "\nseat height is " + seatHeight);
 	}
 }
 
@@ -62,9 +60,8 @@ public class Test {
 	public static void main(String args[]) {
 		MountainBike mb = new MountainBike(3, 100, 25);
 		System.out.println(mb.toString());
-		for(int i=0; i<n; i++)
-		{
-			
+		for (int i = 0; i < n; i++) {
+
 		}
 	}
 }
