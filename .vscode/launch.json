@@ -1,0 +1,287 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ThreadWithException",
+            "request": "launch",
+            "mainClass": "threading.ThreadWithException",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch staticblock",
+            "request": "launch",
+            "mainClass": "staticblock",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch SyncDemo",
+            "request": "launch",
+            "mainClass": "threading.SyncDemo",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch threadpriority",
+            "request": "launch",
+            "mainClass": "threading.threadpriority",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multithreading",
+            "request": "launch",
+            "mainClass": "threading.Multithreading",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch singlethread",
+            "request": "launch",
+            "mainClass": "threading.singlethread",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch basic",
+            "request": "launch",
+            "mainClass": "Basics.basic",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringjava",
+            "request": "launch",
+            "mainClass": "Basics.stringjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch vectorjava",
+            "request": "launch",
+            "mainClass": "Basics.vectorjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch wrapperjava",
+            "request": "launch",
+            "mainClass": "Basics.wrapperjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch constructorsjava",
+            "request": "launch",
+            "mainClass": "Basics2.constructorsjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursionjava",
+            "request": "launch",
+            "mainClass": "Basics2.recursionjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch methodcloning",
+            "request": "launch",
+            "mainClass": "Basics3.methodcloning",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch serializationjava",
+            "request": "launch",
+            "mainClass": "Basics3.serializationjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch UncheckedException",
+            "request": "launch",
+            "mainClass": "ExceptionalHandling.UncheckedException",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch checkedexception",
+            "request": "launch",
+            "mainClass": "ExceptionalHandling.checkedexception",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch exceptionalhandlingwithpolymorphism",
+            "request": "launch",
+            "mainClass": "ExceptionalHandling.exceptionalhandlingwithpolymorphism",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch genericfunction",
+            "request": "launch",
+            "mainClass": "Genericsjava.genericfunction",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch genriclass",
+            "request": "launch",
+            "mainClass": "Genericsjava.genriclass",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch LambdaExpress",
+            "request": "launch",
+            "mainClass": "Lambda_Functional_interface.LambdaExpress",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch shoppingmall",
+            "request": "launch",
+            "mainClass": "SOLID.java.shoppingmall",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch instagram",
+            "request": "launch",
+            "mainClass": "SOLID.liskovsp.instagram",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.Test",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "com.hello",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClockTestDrive",
+            "request": "launch",
+            "mainClass": "doms.ClockTestDrive",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch DVDPlayerTestDrive",
+            "request": "launch",
+            "mainClass": "doms.DVDPlayerTestDrive",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch TapeDeckTestDrive",
+            "request": "launch",
+            "mainClass": "doms.TapeDeckTestDrive",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch XCopy",
+            "request": "launch",
+            "mainClass": "doms.XCopy",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch checkpal",
+            "request": "launch",
+            "mainClass": "doms.checkpal",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "doms.test1",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "doms.test2",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch filehandle",
+            "request": "launch",
+            "mainClass": "filehandle",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch array",
+            "request": "launch",
+            "mainClass": "javacollections.array",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraylistjava",
+            "request": "launch",
+            "mainClass": "javacollections.arraylistjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch hashmapjava",
+            "request": "launch",
+            "mainClass": "javacollections.hashmapjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch linkedlistjava",
+            "request": "launch",
+            "mainClass": "javacollections.linkedlistjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch treemapjava",
+            "request": "launch",
+            "mainClass": "javacollections.treemapjava",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch oops",
+            "request": "launch",
+            "mainClass": "oops",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch streamprog",
+            "request": "launch",
+            "mainClass": "streamjava.streamprog",
+            "projectName": "javadev_956c61ac"
+        }
+    ]
+}
