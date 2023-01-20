@@ -56,12 +56,12 @@ class MountainBike extends Bicycle {
 }
 
 // driver class
-public class Test {
+public class test1 {
 	public static void main(String args[]) {
 		MountainBike mb = new MountainBike(3, 100, 25);
 		System.out.println(mb.toString());
-		for (int i = 0; i < n; i++) {
-
+		for (int i = 0; i < 13; i++) {
+			System.out.println("no issue");
 		}
 	}
 }
