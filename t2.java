@@ -53,3 +53,6 @@ class t2
         System.out.println("The product is : " + product);
   }
 }
+
+
+//select sal from emp 
