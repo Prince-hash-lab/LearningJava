@@ -1,8 +1,9 @@
+package streamjava;
 //a simple program to demonstrate the use of stream in java
 import java.util.*;
 import java.util.stream.*;
   
-class t2
+class streamprog
 {
   public static void main(String args[])
   {
