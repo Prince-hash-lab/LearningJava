@@ -1,26 +1,34 @@
+
 // Main Driver Method
+// Import the File class
+// import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+// Import this class for handling errors
+// import java.io.FileNotFoundException;
+
+// Import the Scanner class to read content from text files
+// import java.util.Scanner;
 
 public class filehandle {
-    public static void main(String[] args) {
-        // Inserting elements into Array
-        int a[] = { 1, 2, 3, 4, 5 };
-
-        // Try block for exceptions
+    public static void main(String[] args) 
+        throws IOException
+    {
+        // initialize a string
+        String str = "Prince_is_intern_at_msbdocs";
         try {
-
-            // Forcefully trying to access and print
-            // element/s beyond indexes of the array
-
-            System.out.println(a[5]);
+            // attach a file to FileWriter
+            FileWriter fw= new FileWriter("file.txt");
+            // read each character from string and write
+            // into FileWriter
+            for (int i = 0; i < str.length(); i++)
+                fw.write(str.charAt(i));
+            System.out.println("Successfully written");
+            // close the file
+            fw.close();
         }
-
-        // Catch block for catching exceptions
-        catch (ArrayIndexOutOfBoundsException e) {
-
-            // Printing display message when index not
-            // present in a array is accessed
-            System.out.println(
-                    "Out of index  please check your code");
+        catch (Exception e) {
+            e.getStackTrace();
         }
     }
 }
