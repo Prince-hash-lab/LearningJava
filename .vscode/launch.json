@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ForEach",
+            "request": "launch",
+            "mainClass": "ForEach",
+            "projectName": "javadev_956c61ac"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadWithException",
             "request": "launch",
             "mainClass": "threading.ThreadWithException",
