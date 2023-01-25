@@ -33,7 +33,13 @@ public class ForEach {
 		//traversing with Consumer interface implementation
 		MyConsumer action = new MyConsumer();
 		myList.forEach(action);
-		
+		List<String> gamesList = new ArrayList<String>();  
+        gamesList.add("Football");  
+        gamesList.add("Cricket");  
+        gamesList.add("Chess");  
+        gamesList.add("Hocky");  
+        System.out.println("------------Iterating by passing method reference---------------");  
+        gamesList.forEach(System.out::println);  
 	}
 
 }
