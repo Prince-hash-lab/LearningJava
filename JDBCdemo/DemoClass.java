@@ -17,8 +17,6 @@ public class DemoClass {
 			userData=rs.getInt(1)+" : "+rs.getString(2);
 			System.out.println(userData);
 		}
-
-
 		st.close();
 		con.close();
 	}

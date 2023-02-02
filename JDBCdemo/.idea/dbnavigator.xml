@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -24,8 +24,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="f33760b8-255e-49ac-a776-4200c887a4a4" object-ref="schemas/org/tables/table1" />
       <object connection-id="313654ab-0d02-4e6e-a686-0f29d304a4d0" object-ref="schemas/mysql/tables/db" />
+      <object connection-id="f33760b8-255e-49ac-a776-4200c887a4a4" object-ref="schemas/org/tables/table1" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
