@@ -20,7 +20,7 @@ public class treemapjava {
         System.out.println("Contains " + check + " "+ ts.contains(check));
         // Print the first element in
         // the TreeSet
-        
+
         System.out.println("First Value " + ts.first());
         // Print the last element in
         // the TreeSet
@@ -28,7 +28,9 @@ public class treemapjava {
         String val = "Intern";
         // Find the values just greater
         // and smaller than the above string
+
         System.out.println("Higher " + ts.higher(val));
+        
         System.out.println("Lower " + ts.lower(val));
     }
 }
