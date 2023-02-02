@@ -8,9 +8,9 @@ public class treemapjava {
         NavigableSet<String> ts = new TreeSet<>();
   
         // Elements are added using add() method
-        ts.add("Prince");
-        ts.add("is");
-        ts.add("Intern");
+        ts.add("Prince" );
+        ts.add("is" );
+        ts.add("Intern") ;
 
          // Printing the elements inside the TreeSet object 
         System.out.println("Tree Set is " + ts);
@@ -20,6 +20,7 @@ public class treemapjava {
         System.out.println("Contains " + check + " "+ ts.contains(check));
         // Print the first element in
         // the TreeSet
+        
         System.out.println("First Value " + ts.first());
         // Print the last element in
         // the TreeSet
