@@ -40,7 +40,8 @@ public class ForEach {
         gamesList.add("Chess");  
         gamesList.add("Hocky");  
         System.out.println("------------Iterating by passing method reference---------------");  
-        gamesList.forEach(System.out::println);  
+		gamesList.forEach(System.out::println);
+		 
 	}
 
 }
@@ -49,6 +50,7 @@ public class ForEach {
 class MyConsumer implements Consumer<Integer>{
 
 	public void accept(Integer t) {
+		
 		System.out.println("Consumer impl Value::"+t);
 	}
 }
