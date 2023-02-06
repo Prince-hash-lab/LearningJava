@@ -37,15 +37,8 @@ public class oops {
 	}
 
 	// Driver code
-	public static void main(String args[])
-    {
-        oops.set("Prince", 10000000.0f);
-        oops.get();
-		oops s = new oops();
-		// System.out.println(s.sum(10, 20));
-		System.out.println(s.sum(10, 20, 30));
-        System.out.println(s.sum(10.5, 20.5));
-        
-		// System.out.println(oops.sum(10, 20));
-	}
+	public static void main(String... args) {    
+		// The comment below is no typo.     
+		// \u000d  System.out.println("This Comment Executed!");  
+	} 
 }
