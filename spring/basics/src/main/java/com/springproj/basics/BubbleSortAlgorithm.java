@@ -1,5 +1,8 @@
 package com.springproj.basics;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BubbleSortAlgorithm implements sortable {
 	public int[] sort(int[] arr)
 	{

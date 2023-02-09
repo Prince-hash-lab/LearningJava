@@ -1,7 +1,13 @@
 package com.springproj.basics;
 
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class QuickSortAlgorithm implements sortable {
-	static int partition(int[] arr, int low, int high)
+	static int partition(int [] arr, int low, int high)
 	{
 
 		// pivot

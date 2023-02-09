@@ -1,9 +1,20 @@
 package com.springproj.basics;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BinarySearchImpl {
+	@Autowired
+	private sortable Sortable;
+
+//	public BinarySearchImpl(sortable sortable) {
+//		this.Sortable = sortable;
+//	}
+
 	public int binarySearch(int[] numbers, int numberToSearchFor)
 	{
-		sortable Sortable=new BubbleSortAlgorithm();
+
 		int[] sortedNumbers= Sortable.sort(numbers);
 		for(int i=0;i<6; i++)
 		{
