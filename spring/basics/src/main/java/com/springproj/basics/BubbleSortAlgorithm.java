@@ -1,8 +1,10 @@
 package com.springproj.basics;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class BubbleSortAlgorithm implements sortable {
 	public int[] sort(int[] arr)
 	{
@@ -16,6 +18,7 @@ public class BubbleSortAlgorithm implements sortable {
 					arr[j] = arr[j + 1];
 					arr[j + 1] = temp;
 				}
+		System.out.println("bubble sort");
 		//logic for bubble sort
 		return arr;
 	}

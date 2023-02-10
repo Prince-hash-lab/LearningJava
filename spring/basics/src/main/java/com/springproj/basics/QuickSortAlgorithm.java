@@ -1,11 +1,15 @@
 package com.springproj.basics;
 
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
+//import org.springframework.stereotype.Component;
+//
 @Component
-@Primary
+//@Primary
+@Qualifier("quick")
 public class QuickSortAlgorithm implements sortable {
 	static int partition(int [] arr, int low, int high)
 	{
@@ -58,6 +62,8 @@ public class QuickSortAlgorithm implements sortable {
 	{
 		quickSort(numbers, 0, numbers.length - 1);
 		//logic for quick sort
+		System.out.println("quicksort sort");
+
 		return numbers;
 	}
 }

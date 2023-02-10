@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-
+import org.springframework.core.SpringVersion;
 @SpringBootApplication
 public class BasicsApplication {
 
@@ -18,7 +18,11 @@ public class BasicsApplication {
 		BinarySearchImpl binarySearchbar=applicationContext.getBean(BinarySearchImpl.class);
 		int res= binarySearchbar.binarySearch(new int[] {12,4,6, 5, 3,8}, 4);
 		System.out.println(res);
+		//printing version of spring and java
 
+		System.out.println("version: " + SpringVersion.getVersion());
+		String version1 = System.getProperty("java.version");
+		System.out.println("version:" + version1);
 	}
 
 }
