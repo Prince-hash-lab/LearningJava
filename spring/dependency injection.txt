@@ -1,0 +1,36 @@
+https://blog.marcnuri.com/field-injection-is-not-recommended
+Injection types
+1) Constructor-based dependency injection
+@Component
+public class ConstructorBasedInjection {
+
+    private final InjectedBean injectedBean;
+
+    @Autowired
+    public ConstructorBasedInjection(InjectedBean injectedBean) {
+        this.injectedBean = injectedBean;
+    }
+
+}
+
+2) Setter-based dependency injection
+@Component
+public class ConstructorBasedInjection {
+
+    private InjectedBean injectedBean;
+
+    @Autowired
+    public void setInjectedBean(InjectedBean injectedBean) {
+        this.injectedBean = injectedBean;
+    }
+
+}
+
+3) Field-based dependency injection
+@Component
+public class ConstructorBasedInjection {
+
+    @Autowired
+    private InjectedBean injectedBean;
+
+}

@@ -20,9 +20,9 @@ public class BasicsApplication {
 		System.out.println(res);
 		//printing version of spring and java
 
-		System.out.println("version: " + SpringVersion.getVersion());
+		System.out.println("spring version: " + SpringVersion.getVersion());
 		String version1 = System.getProperty("java.version");
-		System.out.println("version:" + version1);
+		System.out.println("java version:" + version1);
 	}
 
 }
