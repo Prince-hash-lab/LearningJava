@@ -8,6 +8,7 @@ public class LambdaExpress {
         StringFunction ask = (s) -> s + "?";
         printFormatted("Hello", exclaim);
         printFormatted("Hello", ask);
+        
       }
       public static void printFormatted(String str, StringFunction format) {
         String result = format.run(str);
